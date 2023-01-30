@@ -27,7 +27,7 @@ Tvým úkolem je žákům přiřadit známky na základě *součtu* bodů z pís
 2: 70-89
 3: 50-69
 4: 30-49
-5: 48 a méně
+5: 29 a méně
 ```
 
 * Výsledný slovník ulož jako JSON do souboru `znamky.json`.
