@@ -16,7 +16,7 @@ Návod na odevzdávání úkolů najdete [zde](./ODEVZDAVANI-UKOLU.md).
 |    | Datum     | Téma             | Odkaz na lekci                                                           | Odkaz na úkol
 | -- | --------- | ---------------- | ------------------------------------------------------------------------ | -------------
 | 1  | 12.01.2023 | Úvod, opakování, slicing, metody, moduly | https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/uvod/ , https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/slicing-metody-moduly/ | [ukol-01](./ukoly/ukol-01.md)
-| 2  | 19.01.2023 | Slovníky        | https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/slovniky/  | [ukol-02](./ukoly/ukol-02.md)
+| 2  | 19.01.2023 | Slovníky, slovníky a cykly        | https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky ,  https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky-a-cykly  | [ukol-02](./ukoly/ukol-02.md)
 | 3  | 26.01.2023 | JSON, čtení a zápis JSON dat   | https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/json/ | [ukol-03](./ukoly/ukol-03.md)
 | 4  | 02.02.2023 | Funkce  | https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/vlastni-funkce/ | 
 | 5  | 09.02.2023 | Třídy a dědičnost | | 

@@ -1,5 +1,7 @@
 # ukol-03
 
+_V tomto úkolu využiješ znalosti z kapitoly [Slovníky a cykly](https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky-a-cykly)_
+
 ---
 
 ## Zadání
