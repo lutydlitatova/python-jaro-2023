@@ -34,3 +34,5 @@ První parametr metody `replace` je znak, který chceš nahradit, a druhý param
 
 ## Nepovinný bonus 2
 Přidej svým funkcím _typování_, aby bylo jasné, jaký typy mají parametry tvých funkcí a jaká je návratová hodnota tvých funkcí.
+
+_K typování se dostaneme až v 5. lekci. Pokud chceš, můžeš úlohu řešit předem pomocí [Čtení na doma](https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/vlastni-funkce/cteni-na-doma)_
