@@ -26,7 +26,33 @@ chce koupit. Obě informace si ulož. Následně naprogramuj následující vari
 
 ---
 
+```py
+sklad = {
+  "1N4148": 250,
+  "BAV21": 54,
+  "KC147": 147,
+  "2N7002": 97,
+  "BC547C": 10
+}
+
+kod_soucastky = input("Zadejte kód součástky: ")
+mnozstvi = int(input("Zadejte množství: "))
+
+if kod_soucastky not in sklad:
+    print(f"Součástka {kod_soucastky} není skladem.")
+else:
+    if sklad[kod_soucastky] < mnozstvi:
+        print(f"Součástky {kod_soucastky} lze prodat jen omezené množství {sklad[kod_soucastky]}.")
+        sklad.pop(kod_soucastky)
+    else:
+        print(f"Poptávku lze uspokojit v plné výši.")
+        sklad[kod_soucastky] -= mnozstvi
+```
+
+---
+
 ## Nepovinný bonus 1
+
 Ve slovníku [zde](./morseovka.py) najdeš Morseovu abecedu, kde jako klíč slouží znak v klasické abecedě a jako hodnota zápis znaku v Morseově abecedě.
 
 1. Napiš program, který se uživatele zeptá na text, který chce zapsat v Morseově abecedě. Uvažuj disciplinovaného uživatele, který zadává pouze znaky bez diakritiky, malá písmena atd. Na začátku uvažuj i to, že uživatel nezadává mezery.
@@ -34,9 +60,34 @@ Ve slovníku [zde](./morseovka.py) najdeš Morseovu abecedu, kde jako klíč slo
 1. Abychom měli celý kód vypsaný na jedné řádce, požádáme funkci `print()`, aby na konci výpisu nevkládala znak pro konec řádku, ale mezeru. To uděláme tak, že jako druhý argument funkce dáme argument `end=" "`.
 1. Nyní přidáme mezery. Uvažuj, že uživatel může zadat mezeru. Před tím, než budeš hledat znak ve slovníku, zkontroluj, zda znak není mezera. Pokud ano, vypiš znak lomítka `/`.
 
+```py
+morse_code = {...}
+
+text = input("Zadejte text: ")
+
+for pismeno in text:
+    if pismeno == " ":
+        print("/")
+    else:
+        print(morse_code[pismeno], end=" ")
+```
+
+Možná varianta:
+
+* Přidat znak mezery do slovníku morseovky a vyhnout se tak podmínce:
+
+```py
+morse_code = {...}
+morse_code[" "] = "/"
+
+for pismeno in text:
+    print(morse_code[pismeno], end=" ")
+```
+
 ---
 
 ## Nepovinný bonus 2
+
 Ve slovníku [zde](./staty.py) najdeš seznam slovníků s informacemi o státech světa. O každém státu tam vidíš následující
 informace:
 
@@ -51,3 +102,38 @@ informace:
 Vytvoř program, který se uživatele zeptá na region, který ho zajímá. Následně projdi seznam a vypiš všechny státy, které leží v regionu. Pokud program žádný stát pro daný region nenajde, vypiš text `"Neznámý region"`.
 
 _V tomto bonusu využiješ znalosti z bonusové kapitoly [Slovníky a cykly: dvourozměrné tabulky v Pythonu](https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/slovniky/dvourozmerne-tabulky)_
+
+*  Řešení pomocí seznamu:
+
+```py
+staty = [...]
+region = input("Zadej region: ")
+
+staty_regionu = []
+
+for stat in staty:
+    if stat["region"] == region:
+        staty_regionu.append(stat["name"])
+
+if not staty_regionu:
+    print(f"Neznamy region {region}.")
+else:
+    print(f"Staty v regionu {region}: {staty_regionu}")
+```
+
+* Řešení pomocí pomocné proměnné `nalezeno`:
+
+```py
+staty = [...]
+region = input("Zadej region: ")
+
+nalezeno = False
+
+for stat in staty:
+    if stat["region"] == region:
+        nalezeno = True
+        print(stat["name"])
+
+if not nalezeno:
+    print(f"Neznamy region {region}.")
+```
