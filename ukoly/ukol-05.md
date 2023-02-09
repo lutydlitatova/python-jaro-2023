@@ -39,9 +39,25 @@ teploty = [
 ]
 ```
 
- Pomocí _dict comprehension_ vytvoř slovník, který bude mít následující formát, kde klíčem bude den v týdnu, a hodnotou průměrná teplota ten den.
+Pomocí _dict comprehension_ vytvoř slovník, který bude mít následující formát, kde klíčem bude den v týdnu, a hodnotou průměrná teplota ten den.
 
- ```
- {den: průměrná teplota}
- ```
+```
+{den: průměrná teplota}
+```
+
+_Dict comprehension_ si ukážeme až v 6. lekci, ale princip je velice podobný _list comprehension_. Tady je příklad využit - vytvoříme nový slovník, který nebude body znázorňovat jako celá čísla, ale jako procenta:
+
+```py
+hodnoceni = {"Marie": 62, "Magdalena": 74, "Monika": 93, "Marek": 80}
+
+procenta = {zak: f"{body}%" for zak, body in hodnoceni.items()}
+# procenta = {zak: str(body) + "%" for zak, body in hodnoceni.items()}
+
+# nebo
+
+procenta = {zak: f"{hodnoceni[zak]}%" for zak in hodnoceni}
+# procenta = {zak: str(hodnoceni[zak]) + "%" for zak in hodnoceni}
+
+print(procenta)  # {'Marie': '62%', 'Magdalena': '74%', 'Monika': '93%', 'Marek': '80%'}
+```
 
