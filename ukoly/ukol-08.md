@@ -12,7 +12,7 @@ Stáhni si [dataset](https://raw.githubusercontent.com/lutydlitatova/czechitas-d
 
 ---
 
-## Bonus:
+## Nepovinný bonus
 
 Využij metody [`sort_values()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html) (a libovolných dalších metod), ke zjištění následujících informací:
 * Adopce kterých zvířat je nejdražší?

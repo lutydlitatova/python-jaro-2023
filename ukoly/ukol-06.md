@@ -22,7 +22,7 @@
 
 ---
 
-## Nepovinný bonus 1
+## Nepovinný bonus
 
 Napiš program, který se zeptá uživatele na jeho přihlašovací jméno, e-mailovou adresu a heslo. Po každém zadaném údaji program ověří jeho správnost podle následujících pravidel:
 

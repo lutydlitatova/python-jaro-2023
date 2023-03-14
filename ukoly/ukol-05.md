@@ -23,7 +23,7 @@ teploty = [
 
 ---
 
-## Nepovinný bonus 1
+## Nepovinný bonus
 
 Krom teplot máme k dispozici i informaci o dnu v týdnu:
 

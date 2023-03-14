@@ -28,7 +28,7 @@ Otestuj, že program nedovolí půjčit stejné auto dvakrát.
 
 ---
 
-## Bonus:
+## Nepovinný bonus
 
 Přidej třídě `Auto` metodu `vrat_auto()`, která bude mít (krom obligátního `self`) 2 parametry, a to je stav tachometru při vrácení a počet dní, po které zákazník auto používal. Ulož stav tachometru do atributu objektu. Nastav vozidlo jako volné.
 

@@ -13,7 +13,9 @@ Dále napiš následující dotazy:
 * Dotaz na měření, ve kterých je teplota vyšší než 60 stupňů a současně bylo měření provedeno v regionu (sloupec `Region`) Evropa (Europe).
 * Dotaz na extrémní hodnoty, tj. měření, ve kterých je teplota vyšší než 80 stupňů nebo menší než -20 stupňů.
 
-## Bonus
+---
+
+## Nepovinný bonus 1
 
 Nainstaluj si modul `pytemperature` a zkus si vytvořit nový sloupec, který bude obsahovat průměrnou templotu ve stupních Celsia.
 
@@ -31,7 +33,9 @@ Nyní můžeš zpracovat následující příklady:
 * Dotaz na měření, ve kterých je teplota vyšší než 15 stupňů Celsia a současně bylo měření provedeno v regionu (sloupec `Region`) Evropa (Europe).
 * Dotaz na extrémní hodnoty, tj. měření, ve kterých je teplota vyšší než 30 stupňů Celsia nebo menší než -10 stupňů. Jsou některé hodnoty podezřelé?
 
-## Bonus 2
+---
+
+## Nepovinný bonus 2
 
 Pokračuj ve své práci s informacemi o průměrných teplotách. Pokud jsi zpracoval/a první bonus, můžeš pracovat s teplotami ve stupních Celsia.
 
