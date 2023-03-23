@@ -25,5 +25,5 @@ Návod na odevzdávání úkolů najdete [zde](./ODEVZDAVANI-UKOLU.md).
 | 8  | 02.03.2023 | Jupyter notebook, Zpracování dat v modulu Pandas: úvod, načtení dat | https://kodim.cz/kurzy/python-data-1/python-pro-data-1/nacteni-dat/nacteni-dat | [ukol-08](./ukoly/ukol-08.md)
 | 9  | 09.03.2023 | Zpracování dat v modulu Pandas: Základní dotazy, spojení dat | https://kodim.cz/kurzy/python-data-1/python-pro-data-1/podmineny-vyber/podmineny-vyber ,https://kodim.cz/kurzy/python-data-1/python-pro-data-1/agregace-a-spojovani/pokrocile-upravy | [ukol-09](./ukoly/ukol-09.md)
 | 10 | 16.03.2023 | Zpracování dat v modulu Pandas: Agregace, Vizualizace | https://kodim.cz/kurzy/python-data-1/python-pro-data-1/agregace-a-spojovani/agregace , https://kodim.cz/kurzy/python-data-1/python-pro-data-1/agregace-a-spojovani/ruzne , https://kodim.cz/kurzy/python-data-1/python-pro-data-1/vizualizace/vizualizace | [ukol-10](./ukoly/ukol-10.md)
-| 11 | 23.03.2023 |    | | 
-| 12 | 30.03.2023 |    | | 
+| 11 | 23.03.2023 | Vizualizace - dokončení, Webscraping | https://kodim.cz/kurzy/python-data-1/ziskavani-dat/webscraping | [ukol-11](./ukoly/ukol-11.md)
+| 12 | 30.03.2023 | | | 
